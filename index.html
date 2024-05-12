@@ -21,9 +21,11 @@
         h-[250px] xs330:h-xs250 xs380:h-xs300 xs430:h-xs350 xs480:h-400 xs530:h-xs450
         bg-amber-100
         relative
+        shadow-xl
         ">
             <span id="topLeft" class="
                 absolute
+                z-10
                 top-0
                 left-0
                 block          
@@ -36,11 +38,10 @@
             </span>
             <span id="topRight" class="
                 absolute
+                z-10
                 top-0
                 right-0
                 block
-                w-1/2
-                h-1/2    
                 bg-gradient-to-tr
                 from-amber-50 from-50%
                 via-green-500 via-50%
@@ -50,11 +51,10 @@
             </span>
             <span id="bottomLeft" class="
                 absolute
+                z-10
                 bottom-0
                 left-0
-                block
-                w-1/2
-                h-1/2              
+                block         
                 bg-gradient-to-bl
                 from-amber-50 from-50%
                 via-green-500 via-50%
@@ -64,11 +64,10 @@
             </span>
             <span id="bottomRight" class="
                 absolute
+                z-10
                 bottom-0
                 right-0
                 block
-                w-1/2
-                h-1/2
                 border-0
                 bg-gradient-to-br
                 from-amber-50 from-50%
@@ -76,14 +75,14 @@
                 to-green-300 to-50%
                 shadow-[-1px_-2px_0px_0px_rgba(87,83,78,0.1)]
             ">
-            </span></span>
-            <div id="image" class="
-                bg-image0
-                bg-contain
+            </span>
+            <img id="image" class="
+                z-0
                 w-[250px] xs330:w-xs250 xs380:w-xs300 xs430:w-xs350 xs480:w-400 xs530:w-xs450
                 h-[250px] xs330:h-xs250 xs380:h-xs300 xs430:h-xs350 xs480:h-400 xs530:h-xs450
-            ">
-            </div>
+                border-4 border-white border-solid
+            "
+            src="./images/flower5.jpg" alt="a smiling young boy in camouflage pants and a black graphic t-shirt stands with 3 paper flowers in his hand."/>
         </div>
     </main>
 

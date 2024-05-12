@@ -36,26 +36,37 @@ module.exports = {
         'xs300': '300px',
         'xs250': '250px',
       },
-      'backgroundImage':{
-        'image0': "url('/images/image0.png')"
-      },
       'animation': {
-        'fold-corner':'fold-corner 1s forwards'
-    },
-    'keyframes': {
-        'fold-corner':{
-            '0%': {
-              'width': '0px',
-              'height': '0px'
-            },
-            '100%': {
-              'width': '50%',
+        'fold-corner':'fold-corner 5s ease forwards',
+        'spin-paper': 'spin-paper 3s ease forwards',
+        'unfold-corner': 'unfold-corner 5s ease forwards'
+      },
+      'keyframes': {
+        'fold-corner': {
+          '0%': {
+              'width':'0px',
+              'height': '0px',
+          },
+          '100%': {
+              'width':'50%',
               'height': '50%'
-            }
+          }
+        },
+        'spin-paper': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' }
+        },
+        'unfold-corner': {
+          '0%': {
+              'width':'50%',
+              'height': '50%',
+          },
+          '100%': {
+              'width':'0px',
+              'height': '0px'
+          }
         }
       }
     }
-},
-  plugins: [],
+  }
 }
-
