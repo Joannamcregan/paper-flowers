@@ -37,9 +37,9 @@ module.exports = {
         'xs250': '250px',
       },
       'animation': {
-        'fold-corner':'fold-corner 5s ease forwards',
-        'spin-paper': 'spin-paper 3s ease forwards',
-        'unfold-corner': 'unfold-corner 5s ease forwards'
+        'fold-corner':'fold-corner 1s ease forwards',
+        'spin-paper': 'spin-paper 2s ease forwards',
+        'unfold-corner': 'unfold-corner 1s ease forwards'
       },
       'keyframes': {
         'fold-corner': {

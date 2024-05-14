@@ -619,7 +619,7 @@ video {
 }
 
 .animate-fold-corner {
-  animation: fold-corner 5s ease forwards;
+  animation: fold-corner 1s ease forwards;
 }
 
 @keyframes spin-paper {
@@ -633,7 +633,7 @@ video {
 }
 
 .animate-spin-paper {
-  animation: spin-paper 3s ease forwards;
+  animation: spin-paper 2s ease forwards;
 }
 
 @keyframes unfold-corner {
@@ -649,7 +649,7 @@ video {
 }
 
 .animate-unfold-corner {
-  animation: unfold-corner 5s ease forwards;
+  animation: unfold-corner 1s ease forwards;
 }
 
 .items-center {
@@ -728,10 +728,6 @@ video {
 
 .to-50\% {
   --tw-gradient-to-position: 50%;
-}
-
-.bg-contain {
-  background-size: contain;
 }
 
 .p-4 {
